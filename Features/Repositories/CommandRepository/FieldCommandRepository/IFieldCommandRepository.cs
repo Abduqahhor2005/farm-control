@@ -1,0 +1,6 @@
+using FarmControl.Base.BaseRepository.BaseCommandGenericRepository;
+using FarmControl.Features.Entities;
+
+namespace FarmControl.Features.Repositories.CommandRepository.FieldCommandRepository;
+
+public interface IFieldCommandRepository:ICommandGenericRepository<Field>;

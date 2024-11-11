@@ -1,0 +1,6 @@
+using FarmControl.Base.BaseRepository.BaseQueryGenericRepository;
+using FarmControl.Features.Entities;
+
+namespace FarmControl.Features.Repositories.QueryRepository.CustomerQueryRepository;
+
+public interface ICustomerQueryRepository:IQueryGenericRepository<Customer>;
